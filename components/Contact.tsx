@@ -17,7 +17,7 @@ const Contact = () => {
           </div>
           <div className='flex flex-col gap-2 text-center md:text-left'>
             <p className='font-bold text-xl'>Email</p>
-            <Link href='mailto:mattczencz24@gmail.com' className='text-lg hover:text-theme-primary'>mattczencz24@gmail.com</Link>
+            <Link href='mailto:mattczenczdev@gmail.com' className='text-lg hover:text-theme-primary'>mattczenczdev@gmail.com</Link>
           </div>
         </div>
 
