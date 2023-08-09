@@ -1,3 +1,8 @@
+import RicohPhoto from '@/public/screenshots/ricoh-screenshot.png';
+import ClearchoicePhoto from '@/public/screenshots/clearchoice-screenshot.png';
+import ElmontereyPhoto from '@/public/screenshots/elmonterey-screenshot.png';
+import { StaticImageData } from 'next/image';
+
 export interface NavLink {
   label: string;
   route: string;
@@ -25,7 +30,7 @@ export const navLinks: NavLink[] = [
 export interface Project {
   title: string;
   description: string;
-  image: string;
+  image: string | StaticImageData;
   codeLink?: string;
   liveLink?: string;
   languages: string[];
@@ -35,7 +40,7 @@ export const workProjects: Project[] = [
   {
     title: 'Clearchoice Patient Portal',
     description: 'Occaecat ipsum fugiat voluptate nisi magna ea fugiat quis voluptate sint nisi aute et. Eu aliquip velit nisi sunt officia dolore sunt eiusmod ut occaecat incididunt exercitation. Pariatur laborum dolor veniam sit Lorem. Nisi aliqua pariatur cupidatat et culpa laboris excepteur veniam cupidatat non magna pariatur. Id reprehenderit ex exercitation elit amet elit. Exercitation esse commodo occaecat do eu fugiat ex ut qui labore exercitation. Incididunt amet nisi enim nulla qui.',
-    image: '',
+    image: ClearchoicePhoto,
     languages: [
       'Next.js',
       'Tailwind',
@@ -44,7 +49,7 @@ export const workProjects: Project[] = [
   {
     title: 'Clearchoice Mobile App',
     description: 'Anim irure velit excepteur sint nostrud laboris elit ad. Magna magna exercitation exercitation ex pariatur aliquip deserunt. Reprehenderit in aliquip dolore exercitation exercitation deserunt officia esse dolore nisi. Magna deserunt pariatur laboris irure.',
-    image: '',
+    image: ClearchoicePhoto, // TODO: Get screenshot of mobile app
     languages: [
       'React Native',
       'Tailwind',
@@ -53,7 +58,7 @@ export const workProjects: Project[] = [
   {
     title: 'Ricoh Document Scanners',
     description: 'Cillum sit proident magna eiusmod pariatur tempor et. Est irure consequat mollit reprehenderit id minim. Labore reprehenderit tempor cupidatat qui excepteur cillum fugiat minim in velit et laborum labore. Eu irure laboris veniam ipsum minim aute in. Aliquip proident dolore incididunt sint elit exercitation. Eu ut nulla cillum tempor veniam fugiat eiusmod tempor irure.',
-    image: '',
+    image: RicohPhoto,
     liveLink: 'https://www.pfu-us.ricoh.com/',
     languages: [
       'JavaScript',
@@ -64,7 +69,7 @@ export const workProjects: Project[] = [
   {
     title: 'El Monterey',
     description: 'Enim sunt duis laborum laboris dolor officia enim. Aute quis nostrud pariatur ut deserunt irure elit sint consequat dolor aliqua fugiat adipisicing. Amet voluptate officia cupidatat minim adipisicing do. Reprehenderit irure dolore aliquip sit est. Exercitation dolor laborum elit labore nostrud. Non nulla cupidatat incididunt labore id tempor Lorem.',
-    image: '',
+    image: ElmontereyPhoto,
     liveLink: 'https://elmonterey.com/',
     languages: [
       'JavaScript',

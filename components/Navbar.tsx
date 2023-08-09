@@ -38,7 +38,7 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile Nav */}
-        <ul className='flex md:hidden items-center justify-center gap-8 fixed bg-white bottom-8 right-8 left-8 shadow-lg rounded-full w-fit m-auto py-4 px-8'>
+        <ul className='flex md:hidden items-center justify-center gap-8 fixed bg-white bottom-8 right-8 left-8 shadow-lg rounded-full w-fit m-auto py-4 px-8 z-50'>
           {
             navLinks.map(({ label, route }: NavLink) => {
               const matchIcon = (size: number) => {
