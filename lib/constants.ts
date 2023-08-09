@@ -39,7 +39,7 @@ export interface Project {
 export const workProjects: Project[] = [
   {
     title: 'Clearchoice Patient Portal',
-    description: 'Occaecat ipsum fugiat voluptate nisi magna ea fugiat quis voluptate sint nisi aute et. Eu aliquip velit nisi sunt officia dolore sunt eiusmod ut occaecat incididunt exercitation. Pariatur laborum dolor veniam sit Lorem. Nisi aliqua pariatur cupidatat et culpa laboris excepteur veniam cupidatat non magna pariatur. Id reprehenderit ex exercitation elit amet elit. Exercitation esse commodo occaecat do eu fugiat ex ut qui labore exercitation. Incididunt amet nisi enim nulla qui.',
+    description: 'The Clearchoice Patient Portal is a web-app at it\'s core. This is a platform where patients can view their upcoming dental appointments, surgeries, and find general info. With the assistance of Next.js, I helped build most of the components, the entire messaging center where patients can talk with their doctors, and much more. Unfortunately, the portal is not publically available for anyone to see, however please hover over the image to take a peak at some of my work!',
     image: ClearchoicePhoto,
     languages: [
       'Next.js',
@@ -47,17 +47,8 @@ export const workProjects: Project[] = [
     ],
   },
   {
-    title: 'Clearchoice Mobile App',
-    description: 'Anim irure velit excepteur sint nostrud laboris elit ad. Magna magna exercitation exercitation ex pariatur aliquip deserunt. Reprehenderit in aliquip dolore exercitation exercitation deserunt officia esse dolore nisi. Magna deserunt pariatur laboris irure.',
-    image: ClearchoicePhoto, // TODO: Get screenshot of mobile app
-    languages: [
-      'React Native',
-      'Tailwind',
-    ],
-  },
-  {
     title: 'Ricoh Document Scanners',
-    description: 'Cillum sit proident magna eiusmod pariatur tempor et. Est irure consequat mollit reprehenderit id minim. Labore reprehenderit tempor cupidatat qui excepteur cillum fugiat minim in velit et laborum labore. Eu irure laboris veniam ipsum minim aute in. Aliquip proident dolore incididunt sint elit exercitation. Eu ut nulla cillum tempor veniam fugiat eiusmod tempor irure.',
+    description: 'Ricoh Document Scanners (formerly Fujitsu Scanners) was one of the biggest clients I have had the privilege to work with. Recently we added a full e-commerce flow throughout their entire site, so users could purchase products directly from them. This includes account creation and authorization, order and payment handling, address verification, and much more.',
     image: RicohPhoto,
     liveLink: 'https://www.pfu-us.ricoh.com/',
     languages: [
@@ -68,7 +59,7 @@ export const workProjects: Project[] = [
   },
   {
     title: 'El Monterey',
-    description: 'Enim sunt duis laborum laboris dolor officia enim. Aute quis nostrud pariatur ut deserunt irure elit sint consequat dolor aliqua fugiat adipisicing. Amet voluptate officia cupidatat minim adipisicing do. Reprehenderit irure dolore aliquip sit est. Exercitation dolor laborum elit labore nostrud. Non nulla cupidatat incididunt labore id tempor Lorem.',
+    description: 'Who doesn\'t love burritos, chimichangas, and tacos? This project was solely about breathing new life and building them a new fun and modern website that held their family values. My part in this project included creating complex animations, various texture effects, and keeping their company message sprinkled throughout this delicious site.',
     image: ElmontereyPhoto,
     liveLink: 'https://elmonterey.com/',
     languages: [

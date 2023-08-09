@@ -15,7 +15,9 @@ const About = () => {
         <div className='flex flex-col justify-start gap-4'>
           <h3 className='text-2xl text-theme-primary'>About Me</h3>
           <h3 className='text-3xl'>A passionate engineer based in Colorado, USA</h3>
-          <p className='text-lg mt-4'>Sit consectetur mollit anim sint ex eu ea in nulla anim sit sunt ipsum. Cillum amet do exercitation velit. Ullamco aute excepteur nostrud duis incididunt est mollit quis ea ut qui. Nisi tempor reprehenderit aute nulla sit non et aute reprehenderit adipisicing voluptate. Excepteur sunt velit deserunt incididunt amet anim dolor.</p>
+          <p className='text-lg mt-4'>
+            Ever since I was in high school, I have had an obsession with creating unique and next-generation experiences for others. As an award winning frontend developer, I have made it my career's mission to develop responsive, accessible, and memorable products for whoever I get the pleasure to work with. I love finding areas to optimize things or make a process simpler. I'm a team player, translator for the non-techies, and motivated worker.
+          </p>
         </div>
       </div>
     </section>
