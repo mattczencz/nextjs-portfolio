@@ -9,7 +9,7 @@ const Contact = () => {
         <h3 className='text-2xl text-theme-primary'>Contact</h3>
         <h3 className='text-3xl'>Want to get in touch? Find me below!</h3>
       </div>
-      <div className='flex flex-col md:flex-row w-full gap-16 max-w-6xl mb-24 lg:mb-0 md:flex-wrap'>
+      <div className='flex flex-col md:flex-row w-full gap-16 max-w-6xl md:flex-wrap'>
 
         <div className='flex flex-col md:flex-row items-center gap-4'>
           <div className='bg-white shadow-lg w-16 h-16 lg:w-28 lg:h-28 rounded-full flex items-center justify-center border border-theme-accent/25'>
