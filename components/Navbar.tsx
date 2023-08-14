@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { NavLink, navLinks } from '@/lib/constants';
 import { useState } from 'react';
-import { FiHome, FiUser, FiCode, FiMail } from 'react-icons/fi';
+import { FiHome, FiUser, FiCode, FiMail, FiGithub } from 'react-icons/fi';
 
 
 const Navbar = () => {
@@ -21,20 +21,31 @@ const Navbar = () => {
         </Link>
 
         {/* Tablet & Desktop Nav */}
-        <ul className='hidden md:flex items-center gap-4'>
-          {
-            navLinks.map(({ label, route }: NavLink) => (
-              <li key={label}>
-                <Link
-                  href={route}
-                  className={`nav-link ${ activePath === route && 'nav-link-active' }`}
-                  onClick={() => setActivePath(route)}
-                >
-                  {label}
-                </Link>
-              </li>
-            ))
-          }
+        <ul className='flex items-center gap-4'>
+          <div className='hidden md:flex items-center gap-4'>
+            {
+              navLinks.map(({ label, route }: NavLink) => (
+                <li key={label}>
+                  <Link
+                    href={route}
+                    className={`nav-link ${ activePath === route && 'nav-link-active' }`}
+                    onClick={() => setActivePath(route)}
+                  >
+                    {label}
+                  </Link>
+                </li>
+              ))
+            }
+          </div>
+          <li>
+            <Link
+              href='https://github.com/mattczencz'
+              target='_blank'
+              className={`nav-link`}
+            >
+              <FiGithub size={24} />
+            </Link>
+          </li>
         </ul>
 
         {/* Mobile Nav */}
@@ -49,6 +60,8 @@ const Navbar = () => {
                     return <FiCode size={size} />;
                   case 'Contact':
                     return <FiMail size={size} />;
+                  case 'GitHub':
+                    return <FiGithub size={size} />;
                   default:
                     return <FiHome size={size} />;
                 }
