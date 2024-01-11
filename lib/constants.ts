@@ -1,7 +1,7 @@
 import RicohPhoto from '@/public/screenshots/ricoh-screenshot.png';
 import ClearchoicePhoto from '@/public/screenshots/clearchoice-screenshot.png';
 import ElmontereyPhoto from '@/public/screenshots/elmonterey-screenshot.png';
-import TaskflowPhoto from '@/public/screenshots/taskflow-dashboard.jpg';
+import TrackflowPhoto from '@/public/screenshots/taskflow-dashboard.jpg';
 import { StaticImageData } from 'next/image';
 
 export interface NavLink {
@@ -39,9 +39,9 @@ export interface Project {
 
 export const workProjects: Project[] = [
   {
-    title: 'TaskFlow',
+    title: 'TrackFlow',
     description: "Leveraging the power of Next.js 14, Prisma, and MySQL, I built a robust and scalable platform that seamlessly manages tasks. The app's sleek and intuitive user interface is powered by Radix UI, providing a seamless user experience. This project showcases my proficiency in full-stack development, from designing interactive interfaces to implementing efficient backend solutions. Check out this project in my portfolio to witness firsthand how I bring innovation and functionality together in the digital realm.",
-    image: TaskflowPhoto,
+    image: TrackflowPhoto,
     codeLink: 'https://github.com/mattczencz/trackflow',
     liveLink: 'https://trackflow-mattczencz.vercel.app/',
     languages: [
