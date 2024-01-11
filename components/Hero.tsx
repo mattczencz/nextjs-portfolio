@@ -9,7 +9,7 @@ const Hero = () => {
       </div>
       <p className='text-lg lg:text-2xl text-center'>
         A <span className='font-bold'>frontend developer, passionate engineer, and computer geek</span> based in Colorado. <br />
-        My goal is to engineer phenomonal user experiences.
+        My goal is to engineer phenomenal user experiences.
       </p>
       {/* <TechStack /> */}
     </section>
