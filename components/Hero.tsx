@@ -1,5 +1,3 @@
-import TechStack from './TechStack';
-
 const Hero = () => {
   return (
     <section className='container content-section gap-8'>
@@ -11,7 +9,6 @@ const Hero = () => {
         A <span className='font-bold'>frontend developer, passionate engineer, and computer geek</span> based in Colorado. <br />
         My goal is to engineer phenomenal user experiences.
       </p>
-      {/* <TechStack /> */}
     </section>
   );
 };
