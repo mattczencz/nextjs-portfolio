@@ -1,5 +1,3 @@
-'use client';
-
 import TechStack from './TechStack';
 
 const Hero = () => {
@@ -13,7 +11,7 @@ const Hero = () => {
         A <span className='font-bold'>frontend developer, passionate engineer, and computer geek</span> based in Colorado. <br />
         My goal is to engineer phenomonal user experiences.
       </p>
-      <TechStack />
+      {/* <TechStack /> */}
     </section>
   );
 };

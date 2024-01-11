@@ -4,8 +4,8 @@ import type { Metadata } from 'next';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Matt Czencz - Frontend Developer Portfolio',
-  description: `Matt Czencz's Frontend Developer Portfolio. View his work and enjoy!`,
+  title: 'Matt Czencz - Web Developer Portfolio',
+  description: `Matt Czencz's Web Developer Portfolio. View his work and enjoy!`,
 };
 
 export default function RootLayout({

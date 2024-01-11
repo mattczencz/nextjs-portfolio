@@ -17,7 +17,7 @@ const Navbar = () => {
           className='nav-logo'
           onClick={() => setActivePath('/')}
         >
-          <h3 className='text-lg'>Matt Czencz <span className='hidden md:inline-block'>- Frontend Developer</span></h3>
+          <h3 className='text-lg'>Matt Czencz <span className='hidden md:inline-block'>- Web Developer</span></h3>
         </Link>
 
         {/* Tablet & Desktop Nav */}
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <li key={label}>
                   <Link
                     href={route}
-                    className={`nav-link ${ activePath === route && 'nav-link-active' }`}
+                    className={`nav-link ${activePath === route && 'nav-link-active'}`}
                     onClick={() => setActivePath(route)}
                   >
                     {label}
@@ -71,7 +71,7 @@ const Navbar = () => {
                 <li key={label}>
                   <Link
                     href={route}
-                    className={`nav-link ${ activePath === route && 'nav-link-active' }`}
+                    className={`nav-link ${activePath === route && 'nav-link-active'}`}
                     onClick={() => setActivePath(route)}
                   >
                     {

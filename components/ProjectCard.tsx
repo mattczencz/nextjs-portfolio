@@ -1,7 +1,7 @@
 import { Project } from '@/lib/constants';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FiExternalLink } from 'react-icons/fi';
+import { FiExternalLink, FiGithub } from 'react-icons/fi';
 
 interface Props {
   orientation: 'left' | 'right';
@@ -13,8 +13,8 @@ const ProjectCard = ({
   project: { title, description, image, codeLink, liveLink, languages }
 }: Props) => {
   return (
-    <div className={`flex flex-col lg:items-center bg-white shadow-lg rounded-2xl p-4 lg:p-8 gap-12 ${ orientation === 'left' ? 'lg:flex-row' : 'lg:flex-row-reverse' }`}>
-      <div className=' drop-shadow-md rounded-2xl overflow-hidden relative w-full lg:w-1/2 h-[400px]'>
+    <div className={`flex flex-col lg:items-center bg-white shadow-lg rounded-2xl p-4 lg:p-8 gap-12 ${orientation === 'left' ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
+      <div className='drop-shadow-md rounded-2xl overflow-hidden relative w-full lg:w-1/2 h-[400px]'>
         <Image
           src={image}
           alt={title}
@@ -38,6 +38,7 @@ const ProjectCard = ({
               {
                 codeLink && (
                   <Link href={codeLink} className='project-link' target='_blank'>
+                    <FiGithub />
                     Code
                   </Link>
                 )
@@ -45,7 +46,8 @@ const ProjectCard = ({
               {
                 liveLink && (
                   <Link href={liveLink} className='project-link' target='_blank'>
-                    Live Site <FiExternalLink />
+                    <FiExternalLink />
+                    Live Site
                   </Link>
                 )
               }

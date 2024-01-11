@@ -1,6 +1,7 @@
 import RicohPhoto from '@/public/screenshots/ricoh-screenshot.png';
 import ClearchoicePhoto from '@/public/screenshots/clearchoice-screenshot.png';
 import ElmontereyPhoto from '@/public/screenshots/elmonterey-screenshot.png';
+import TaskflowPhoto from '@/public/screenshots/taskflow-dashboard.jpg';
 import { StaticImageData } from 'next/image';
 
 export interface NavLink {
@@ -37,6 +38,19 @@ export interface Project {
 };
 
 export const workProjects: Project[] = [
+  {
+    title: 'TaskFlow',
+    description: "Leveraging the power of Next.js 14, Prisma, and MySQL, I built a robust and scalable platform that seamlessly manages tasks. The app's sleek and intuitive user interface is powered by Radix UI, providing a seamless user experience. This project showcases my proficiency in full-stack development, from designing interactive interfaces to implementing efficient backend solutions. Check out this project in my portfolio to witness firsthand how I bring innovation and functionality together in the digital realm.",
+    image: TaskflowPhoto,
+    codeLink: 'https://github.com/mattczencz/taskflow',
+    liveLink: 'https://trackflow-mattczencz.vercel.app/',
+    languages: [
+      'Next.js 14',
+      'Prisma',
+      'MySQL',
+      'Radix UI'
+    ],
+  },
   {
     title: 'Clearchoice Patient Portal',
     description: 'The Clearchoice Patient Portal is a web-app at it\'s core. This is a platform where patients can view their upcoming dental appointments, surgeries, and find general info. With the assistance of Next.js, I helped build most of the components, the entire messaging center where patients can talk with their doctors, and much more. Unfortunately, the portal is not publically available for anyone to see, however please hover over the image to take a peak at some of my work!',
