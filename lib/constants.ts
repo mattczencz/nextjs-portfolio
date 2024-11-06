@@ -41,17 +41,16 @@ export interface Project {
 export const workProjects: Project[] = [
   {
     title: 'TrackFlow',
-    description: "Leveraging the power of Next.js 14, Prisma, and MySQL, I built a robust and scalable platform that seamlessly manages tasks. The app's sleek and intuitive user interface is powered by Radix UI, providing a seamless user experience. This project showcases my proficiency in full-stack development, from designing interactive interfaces to implementing efficient backend solutions. Check out this project in my portfolio to witness firsthand how I bring innovation and functionality together in the digital realm.",
+    description: "Leveraging the power of Next.js 14, Prisma, and PostgreSQL, I built a robust and scalable platform that seamlessly manages tasks. The app's sleek and intuitive user interface is powered by Radix UI, providing a seamless user experience. This project showcases my proficiency in full-stack development, from designing interactive interfaces to implementing efficient backend solutions. Check out this project in my portfolio to witness firsthand how I bring innovation and functionality together in the digital realm.",
     image: TrackflowPhoto,
     codeLink: 'https://github.com/mattczencz/trackflow',
     liveLink: 'https://trackflow-mattczencz.vercel.app/',
     languages: [
       'Next.js 14',
       'Prisma',
-      'MySQL',
+      'PostgreSQL',
       'Radix UI'
     ],
-    disclaimer: 'Database is down due to free tier of PlanetScale being removed. I am currently investigating alternatives and I apologize for any inconvenience this causes.'
   },
   {
     title: 'Clearchoice Patient Portal',
