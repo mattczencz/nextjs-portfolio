@@ -17,7 +17,7 @@ const Navbar = () => {
           className='nav-logo'
           onClick={() => setActivePath('/')}
         >
-          <h3 className='text-lg'>Matt Czencz <span className='hidden md:inline-block'>- Web Developer</span></h3>
+          <h3 className='text-lg'>Matt Czencz <span className='hidden md:inline-block'>- Full Stack Engineer</span></h3>
         </Link>
 
         {/* Tablet & Desktop Nav */}

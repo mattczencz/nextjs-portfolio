@@ -6,7 +6,7 @@ const Hero = () => {
         <small className='text-base italic font-extralight'>Pronunciation: Senz</small>
       </div>
       <p className='text-lg lg:text-2xl text-center'>
-        A <span className='font-bold'>frontend developer, passionate engineer, and computer geek</span> based in Colorado. <br />
+        A <span className='font-bold'>full stack engineer, passionate developer, and computer geek</span> based in Colorado. <br />
         My goal is to engineer phenomenal user experiences.
       </p>
     </section>
