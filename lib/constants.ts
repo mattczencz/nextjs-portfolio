@@ -51,7 +51,7 @@ export const workProjects: Project[] = [
       'MySQL',
       'Radix UI'
     ],
-    disclaimer: 'Database is down due to free tier of Supabase being removed. I am currently investigating alternatives and I apologize for any inconvenience this causes.'
+    disclaimer: 'Database is down due to free tier of PlanetScale being removed. I am currently investigating alternatives and I apologize for any inconvenience this causes.'
   },
   {
     title: 'Clearchoice Patient Portal',
