@@ -10,7 +10,7 @@ interface Props {
 
 const ProjectCard = ({
   orientation,
-  project: { title, description, image, codeLink, liveLink, languages }
+  project: { title, description, image, codeLink, liveLink, languages, disclaimer }
 }: Props) => {
   return (
     <div className={`flex flex-col lg:items-center bg-white shadow-lg rounded-2xl p-4 lg:p-8 gap-12 ${orientation === 'left' ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
@@ -54,6 +54,7 @@ const ProjectCard = ({
             </div>
           )
         }
+        {disclaimer && <small className="italic text-xs text-red-500/75 block text-center">{disclaimer}</small>}
       </div>
     </div>
   );
