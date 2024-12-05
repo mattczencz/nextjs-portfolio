@@ -40,6 +40,16 @@ export interface Project {
 
 export const workProjects: Project[] = [
   {
+    title: 'Coffee App (in-progress)',
+    description: "Coffee App is an application that I built using React Native. The concept behind this is to provide a coffee shop with a native application, so users can explore their offerings. Features include filtering, adding coffee's to their favorites and remove them, nested navigators, and more.",
+    image: {src: 'https://picsum.photos/2640', width: 2640, height: 2640},
+    codeLink: 'https://github.com/mattczencz/coffee-shop',
+    languages: [
+      'React Native',
+      'Expo',
+    ],
+  },
+  {
     title: 'TrackFlow',
     description: "Leveraging the power of Next.js 14, Prisma, and PostgreSQL, I built a robust and scalable platform that seamlessly manages tasks. The app's sleek and intuitive user interface is powered by Radix UI, providing a seamless user experience. This project showcases my proficiency in full-stack development, from designing interactive interfaces to implementing efficient backend solutions. Check out this project in my portfolio to witness firsthand how I bring innovation and functionality together in the digital realm.",
     image: TrackflowPhoto,
