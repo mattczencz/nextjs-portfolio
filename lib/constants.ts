@@ -2,6 +2,7 @@ import RicohPhoto from '@/public/screenshots/ricoh-screenshot.png';
 import ClearchoicePhoto from '@/public/screenshots/clearchoice-screenshot.png';
 import ElmontereyPhoto from '@/public/screenshots/elmonterey-screenshot.png';
 import TrackflowPhoto from '@/public/screenshots/taskflow-dashboard.jpg';
+import CoffeeShopPhoto from '@/public/screenshots/coffee-shop.jpg';
 import { StaticImageData } from 'next/image';
 
 export interface NavLink {
@@ -42,7 +43,7 @@ export const workProjects: Project[] = [
   {
     title: 'Coffee App (in-progress)',
     description: "Coffee App is an application that I built using React Native. The concept behind this is to provide a coffee shop with a native application, so users can explore their offerings. Features include filtering, adding coffee's to their favorites and remove them, nested navigators, and more.",
-    image: {src: 'https://picsum.photos/2640', width: 2640, height: 2640},
+    image: CoffeeShopPhoto,
     codeLink: 'https://github.com/mattczencz/coffee-shop',
     languages: [
       'React Native',
